@@ -53,3 +53,17 @@ footer {
     height: 50px;
     background-color: #aaaaaa;
 }
+@media screen and (max-width:768px) {
+    main {
+        width:100%;
+        display: block;
+        margin:50px auto;
+    }
+    .blog {
+        width:90%;
+        margin:0 5%;
+    }
+    .blog:nth-child(2),.blog:nth-child(3) {
+        margin-top: 20px;
+    }
+    }
